@@ -1,0 +1,21 @@
+{
+  "name": "bls-appointment-assistant",
+  "version": "0.1.0",
+  "description": "Safe local BLS Spain Morocco appointment assistant configuration and login session helper.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "setup": "node src/commands/setup.js",
+    "login": "node src/commands/login.js",
+    "check:session": "node src/commands/check-session.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "pino": "^9.6.0",
+    "playwright": "^1.49.1"
+  }
+}
