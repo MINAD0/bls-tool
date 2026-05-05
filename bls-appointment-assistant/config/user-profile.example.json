@@ -1,0 +1,19 @@
+{
+  "firstName": "Example",
+  "lastName": "Applicant",
+  "passportNumber": "AA000000",
+  "dateOfBirth": "1990-01-01",
+  "phone": "+212600000000",
+  "email": "example@example.com",
+  "city": "casablanca",
+  "preferredDates": [
+    "2026-05-20"
+  ],
+  "booking": {
+    "visaType": "Schengen Visa",
+    "visaCategory": "Tourism",
+    "subcategory": "Short Stay",
+    "applicantType": "Individual",
+    "travelPurpose": "Tourism"
+  }
+}
